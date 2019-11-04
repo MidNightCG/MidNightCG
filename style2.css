@@ -1,0 +1,178 @@
+a{
+  text-decoration:none; 
+}
+a:visited {color:#FFFFFF; text-decoration:none;}
+a:hover {color: rgb(86, 83, 241); text-decoration:underline;}
+
+.body{
+    margin:0px;
+    padding:0px;
+    border:none;
+  }
+  
+  .hand{
+    width: 1900px;
+    height: 395px; 
+  }
+  
+  .box1{
+    position: relative;
+  }
+  
+  .handico{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -130px;
+    margin-left: -85px;
+  }
+  
+  .handText{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  .box2{
+    background-color: #79BBCF;
+    width: 1900px;
+    height: 104px; 
+    border:none;
+  }
+  
+  .box2_ul{
+    border:none;
+    margin: -10px 10px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .Home{
+    padding-top: 22px;
+    padding-left: 415px;
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+  
+  .product{
+    padding-top: 22px;
+    padding-left: 176px;
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+  
+  .About_me{
+    padding-top: 22px;
+    padding-left: 176px;
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+  
+  .Contact{
+    padding-top: 22px;
+    padding-left: 176px;
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+
+  .bg1{
+    width: 1900px;
+    height: 1858px; 
+  }
+
+  .bg1_1{
+  position: absolute;
+  top: 50%;
+  margin-left: 505px;
+  margin-top: 150px;
+  }
+
+  .bg1_2{
+    position: absolute;
+    top: 50%;
+    margin-top: 450px;
+    margin-left: 145px;
+  }
+  .bg1_3{
+    position: absolute;
+    top: 50%;
+    margin-top: 450px;
+    margin-left: 762px;
+  }
+  .bg1_4{
+    position: absolute;
+    top: 50%;
+    margin-top: 450px;
+    margin-left: 1379px;
+  }
+   .bg1_5{
+    position: absolute;
+    top: 50%;
+    margin-top: 1100px;
+    margin-left: 145px;
+  }
+  .bg1_6{
+    position: absolute;
+    top: 50%;
+    margin-top: 1100px;
+    margin-left: 762px;
+  }
+  .bg1_7{
+    position: absolute;
+    top: 50%;
+    margin-top: 1100px;
+    margin-left: 1379px;
+  }
+
+  .bg5{
+    position: absolute;
+    margin-top: -109px;
+    width: 1900px;
+  }
+  .box5{
+    position: relative;
+    border:none;
+  }
+  .bg5_1{
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 20px;
+  }
+  
+  .bg5_2{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 582px;
+  }
+  
+  .bg5_3{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 1713px;
+  }
+  
+  .bg5_4{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 1786px;
+  }
+  
+  
+  .bg5_5{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 1855px;
+  }
+  
