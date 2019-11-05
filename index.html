@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" type="text/css" href="style.css">
+   <link  rel="stylesheet" href="./fullPage.js-master/dist/fullpage.min.css">
+   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+   <script src="./fullPage.js-master/dist/fullpage.min.js"></script>
     <title>Document</title>
 </head>
+
 <body class= "body">
+<div id="fullpage">
+ <div class="section">  
     <div class="box1">
-        <img class="hand" src="./picture/1.png">
+        <img class="hand" src="./picture/2_02.png">
         <img class="handico" src="./picture/2.png" >
         <h1 class="handText">G&L</h1>
     </div>
@@ -21,8 +27,10 @@
             <li class="About_me"><a href="Aboutme.html">關於我</a></li>
             <li class="Contact"><a href="Contact.html">聯係我</a></li>
         </ul>
+        <img class="hand_01" src="./picture/3.png">
     </div>
-
+</div>
+<div class="section"> 
     <div class="box3">
         <img class="bg2" src="./picture/3.png">
         <div >
@@ -35,7 +43,8 @@
                 </a>    
         </div>
     </div>
-
+</div>
+<div class="section">     
     <div class="box4">
         <img class="bg3" src="./picture/6.png">
         <div>
@@ -46,7 +55,8 @@
             <img class="bg3_5" src="./picture/ps.png">
         </div>
     </div>
-
+</div>
+<div class="section">
     <div class="box5">
         <img class="bg4" src="./picture/7.png">
         <div>
@@ -64,6 +74,9 @@
              <img class="bg5_4" src="./picture/5_02_google.png">
              <img class="bg5_5" src="./picture/5_03_twitter.png">
         </div>
-    </div>
+    </div> 
+</div>
+</div>
+<script>$('#fullpage').fullpage();</script> 
 </body>
 </html>

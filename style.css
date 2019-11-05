@@ -14,6 +14,15 @@ a:hover {color: rgb(86, 83, 241); text-decoration:underline;}
 .hand{
   width: 1920px;
   height: 395px; 
+  position: absolute;
+  top:-460px;
+}
+
+.hand_01{
+  width: 1920px;
+  position: absolute;
+  top: 100px;
+  
 }
 
 .box1{
@@ -22,10 +31,7 @@ a:hover {color: rgb(86, 83, 241); text-decoration:underline;}
 
 .handico{
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top: -130px;
-  margin-left: -85px;
+  top:40% ;
 }
 
 .handText{
@@ -39,14 +45,17 @@ a:hover {color: rgb(86, 83, 241); text-decoration:underline;}
 }
 
 .box2{
+  position: absolute;
   background-color: #79BBCF;
   width: 1920px;
-  height: 104px; 
+  height: 104px;
   border:none;
+  top: 390px;
 }
 
 .box2_ul{
   border:none;
+  top: 100px;
   margin: -10px 10px;
   display: flex;
   list-style: none;
